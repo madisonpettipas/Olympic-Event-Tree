@@ -1,12 +1,9 @@
 
 /**
  * Author: Madison Pettipas
- * Email: mpettipas2024@my.fit.edu
- * Course: CSE2010
- * Section: E2
  * Description: Uses a Tree ADT to keep track of simulated Olympic sports, their
  *              events, and their gold, silver, and bronze medalists by name and
- *              country. Takes an input data file to create the olympic tree, and
+ *              country. Takes an input data file to create the Olympic tree, and
  *              then a query file in order to output certain data depending on
  *              what is asked.
  */
@@ -194,7 +191,7 @@ public class HW3 {
     public static void GetSportAndEventByAthlete(Scanner scnr, Tree t) {
         String athlete = scnr.next();
         ArrayList<Tree.Node> allOccurences = new ArrayList<>();
-        //find every Node who's data matches the input athlete name
+        //find every Node whose data matches the input athlete name
         allOccurences = t.getAllAthleteNodes(t.root, athlete, allOccurences);
         
         String event, sport, both;

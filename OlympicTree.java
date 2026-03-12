@@ -11,7 +11,7 @@ import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.Scanner;
 import java.util.ArrayList;
-public class HW3 {
+public class OlympicTree {
     /** Boolean method with a String parameter. Determines whether the
      * String is a valid method name that can be called by chooseMethod.*/
     public static boolean isMethod(String command) {

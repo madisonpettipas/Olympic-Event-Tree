@@ -1,8 +1,5 @@
 /**
  * Author: Madison Pettipas
- * Email: mpettipas2024@my.fit.edu
- * Course: CSE2010
- * Section: E2
  * Description: A Tree ADT with an inner Node class and general methods
  *              such as insertChild, appendChild, getChildren, and getParent.
  *              Includes multiple specialized methods to assist the methods
@@ -47,7 +44,7 @@ public class Tree {
     
     /** Void method with the parameters a Node and a String. Creates a 
      * new Node with the input String as data and inserts the Node into 
-     * the Tree as a child of the insert parent Node in alphebetical order */
+     * the Tree as a child of the insert parent Node in alphabetical order */
     public void insertChild(Node parent, String childData) {
         if (parent != null) {
             int i=0;
